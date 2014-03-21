@@ -30,7 +30,7 @@ if ON_OPENSHIFT:
             'NAME': 'soapbox',  # Or path to database file if using sqlite3.
             'USER': 'admin5lSnDHE',                      # Not used with sqlite3.
             'PASSWORD': 'q9ctmMmcqIs7',                  # Not used with sqlite3.
-            'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+            'HOST': 'ex-std-node316.prod.rhcloud.com',                      # Set to empty string for localhost. Not used with sqlite3.
             'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
         }
     }
