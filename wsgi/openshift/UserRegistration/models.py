@@ -17,5 +17,7 @@ class SBUser(models.Model) :
 	username = models.CharField(max_length=18)
 	password = models.CharField(max_length=18) # TODO : Need to change to make sure plaintext password is never stored
 	email = models.EmailField() # Max length of an email address
-	location = models.ForeignKey(SBLocation) # Not sure if this is how we want to store this
+	#location = models.ForeignKey(SBLocation) # Not sure if this is how we want to store this
 
+	def __unicode__(self):
+		return self.username
