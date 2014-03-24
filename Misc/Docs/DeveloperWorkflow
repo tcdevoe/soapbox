@@ -2,7 +2,7 @@ Developer Workflow
 
 - Regular code changes done on local machines
 - push to github and openshift
-- any django related admin changes done in /var/lib/openshift/5329027be0b8cdba4e00000b/app-root/data/soapbox on openshift server (has a copy of the openshift repo...make sure you pull before doing anything this repo may not be up to date)
+- any django related admin changes done in /var/lib/openshift/5329027be0b8cdba4e00000b/app-root/data/soapbox (local openshift repo) on openshift server (has a copy of the openshift repo...make sure you pull before doing anything this repo may not be up to date)
 
 Overall 4 Separate Repos :
 
