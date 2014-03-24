@@ -12,7 +12,6 @@ class SBLocation(models.Model) :
 	state = models.CharField(max_length=100)
 	city = models.CharField(max_length=100)
 
-
 class SBUser(models.Model) :
 	username = models.CharField(max_length=18)
 	password = models.CharField(max_length=18) # TODO : Need to change to make sure plaintext password is never stored
