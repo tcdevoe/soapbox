@@ -7,7 +7,7 @@
 {% if alph_users %}
     <u1>
         {% for user in alph_users %}
-            {% user.username %}
+            {{ user.username }}, {{ user.email }}
             <br>
         {% endfor %}
     </u1>
