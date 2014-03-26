@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     url(r'^$', 'openshift.views.home', name='home'),
     # url(r'^openshift/', include('openshift.foo.urls')),
     url(r'^Register/$', 'UserRegistration.views.index'),
-    # Uncomment the admin/doc line below to enable admin documentation:
+    # Uncomment the admin/doc line below to enable admindocumentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:

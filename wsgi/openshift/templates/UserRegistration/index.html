@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+{% if alph_users %}
+    <u1>
+        {% for user in alph_users %}
+            {% user.username %}
+            <br>
+        {% endfor %}
+    </u1>
+{% else %}
+    <p>No users are available.</p>
+{% endif %}
+
+</body>
+</html>
