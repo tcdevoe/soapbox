@@ -1,4 +1,4 @@
-from UserRegistration.models import SBUser
+from models import SBUser
 from django.contrib import admin
 
 class SBUserAdmin(admin.ModelAdmin) :
