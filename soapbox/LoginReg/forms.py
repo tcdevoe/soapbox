@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from LoginReg import User
+from LoginReg.models import User
 
 class LoginForm(ModelForm):
 	class Meta:
